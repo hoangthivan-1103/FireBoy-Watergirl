@@ -1,26 +1,45 @@
 # FireBoy & WaterGirl
 
-A 2-player platform game developed with Python and Pygame.
+A 2D multiplayer platform game developed using Python and Pygame.
 
-## Description
+## Introduction
 
-FireBoy & WaterGirl is a two-player platform game where players work together to overcome obstacles, activate mechanisms, and reach the exit.
+FireBoy & WaterGirl is a two-player platform game where players need to cooperate to complete each level.
 
-The game includes multiple levels, character movement, obstacles, gates, doors, and interactive elements.
+Each character has different abilities and must avoid dangerous areas while reaching the exit.
 
 ## Technologies
 
 - Python
-- Pygame CE
+- Pygame
 
-## Requirements
+## Features
 
-- Python 3.14 or later
-- Pygame CE
+- Two-player gameplay
+- Multiple levels
+- Character movement
+- Collision detection
+- Doors and gates
+- Level selection
+- Win/Lose conditions
 
-## Installation
+## Controls
 
-Install Pygame CE:
+### FireBoy
+- Arrow Keys: Move
+
+### WaterGirl
+- W: Move Up
+- A: Move Left
+- S: Move Down
+- D: Move Right
+
+### Other
+- ESC: Return to level selection
+
+## How to Run
+
+Install Pygame:
 
 ```bash
-python -m pip install pygame-ce
+pip install pygame-ce
